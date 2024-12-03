@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Portfolio de Luis Amilcar Reyes López</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Eliminar el margen por defecto de la barra de navegación y los bordes redondeados */
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+
+    /* Agregar color gris y algo de padding al pie de página */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    /* Ajustes para imágenes en la galería */
+    .img-responsive {
+      width: 100%;
+      height: auto;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    /* Estilo para la imagen de presentación */
+    .profile-img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      margin-top: 20px;
+    }
+
+    /* Centrar las imágenes en la galería */
+    .gallery-img {
+      display: block;
+      margin: 0 auto;
+    }
+
+    /* Añadir algo de margen a las secciones */
+    .section {
+      padding: 60px 0;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Barra de navegación -->
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Portafolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#home">Inicio</a></li>
+        <li><a href="#about">Sobre mí</a></li>
+        <li><a href="#gallery">Galería</a></li>
+        <li><a href="#contact">Contacto</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Iniciar sesión</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Jumbotron principal -->
+<div id="home" class="jumbotron section">
+  <div class="container text-center">
+    <h1>Portafolio de Luis Amilcar Reyes López</h1>
+    <p>Bienvenidos a mi página web personal donde comparto mis proyectos y logros.</p>
+  </div>
+</div>
+
+<!-- Sección de presentación personal -->
+<div id="about" class="container text-center section">
+  <h2>Sobre mí</h2>
+  <img src="https://scontent-gua1-1.xx.fbcdn.net/v/t39.30808-1/419908441_10226031725167923_6512194876172836774_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=104&ccb=1-7&_nc_sid=0ecb9b&_nc_ohc=JUocFwj0_PYQ7kNvgEh8to-&_nc_zt=24&_nc_ht=scontent-gua1-1.xx&_nc_gid=AfUa75-JsyhsV43b4fVa0lr&oh=00_AYCKTlAITNhOO95tI8ZIo75TJtVQ96OH-1LTT_dUi8UPiw&oe=67552916" class="profile-img" alt="Luis Amilcar Reyes López">
+  <p>Hola, soy Luis Amilcar Reyes López, un desarrollador web con experiencia en tecnologías como Laravel, HTML5 y CSS. Estoy constantemente aprendiendo nuevas herramientas y técnicas para mejorar mis habilidades.</p>
+</div>
+
+<!-- Galería de tecnologías web -->
+<div id="gallery" class="container-fluid bg-3 text-center section">
+  <h3>Tecnologías que manejo</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Laravel</p>
+      <img src="https://laravelnews.s3.amazonaws.com/images/laravel-featured.png?inspect=1" class="gallery-img img-responsive" alt="Laravel">
+    </div>
+    <div class="col-sm-4">
+      <p>HTML5</p>
+      <img src="https://www.redusers.com/noticias/wp-content/uploads/2011/01/html5logo.jpg" class="gallery-img img-responsive" alt="HTML5">
+    </div>
+    <div class="col-sm-4">
+      <p>CSS</p>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO3lOi5pa0IHvhssVg0iv2v6tY27RmDozQGA&s" class="gallery-img img-responsive" alt="CSS">
+    </div>
+  </div>
+</div><br>
+
+<!-- Pie de página -->
+<div id="contact" class="section">
+  <footer class="container-fluid text-center">
+    <p>&copy; 2024 Luis Amilcar Reyes López - Todos los derechos reservados.</p>
+  </footer>
+</div>
+
+</body>
+</html>
